@@ -52,8 +52,32 @@
     color:#fff;
 }
 
+.container{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:100px;
+}
 
+.descubrenos{
+    width: 40vw;
+    text-align: center;
+}
 
+.descubrenos h2{
+    width:100%;
+    background-color: #3F3AA5;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.descubrenos p{
+    font-size: 25px;
+    text-align: center;
+}
 
 
 
