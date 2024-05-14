@@ -7,6 +7,37 @@
     align-items: center;
     justify-content:space-around;
 }
+.img-portada{
+    width: 100vw;
+    height: auto;
+    -webkit-clip-path: circle(130vw at 50% -100vw);
+    clip-path: circle(160vw at 50% -115vw);
+    position: relative;
+    z-index: 1; 
+}
+.div-difuminado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: circle(130vw at 50% -100vw);
+    clip-path: circle(160vw at 50% -115vw);
+    background-color: rgba(63, 58, 165, 0.6); 
+    z-index: 2;
+}
+.texto{
+    position: absolute;
+    font-size: 3rem;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2; 
+    width: 100%;
+    letter-spacing: 1.5px;
+    color: white; 
+}
 
 .logo{
     width: 110px;
@@ -59,7 +90,7 @@
     height: 600px;
     align-items: center;
     justify-content: space-around;
-  
+   margin-top: -20vh;
 }
 
 .divTexto{
@@ -81,4 +112,70 @@
     font-size: 25px;
     text-align: justify;
 }
+
+/*Card de servicios*/
+
+.card {
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    background-color: #3F3AA5;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .price {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .lists {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 0.75rem;
+    row-gap: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .list span {
+    margin-left: 1rem;
+  }
+  
+  .action {
+    margin-top: 2rem;
+    width: 100%;
+    border: 2px solid  rgba(255, 255, 255, 1);
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.625rem 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 1);
+    outline: none;
+    text-decoration: none;
+    transition: all .2s ease;
+  }
+  
+  .action:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+  }
 
