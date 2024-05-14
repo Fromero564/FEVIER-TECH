@@ -178,4 +178,22 @@
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
   }
-
+/*boton wssp*/
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp i {
+    margin-top:13px;
+    scale: 1.2;
+  }
