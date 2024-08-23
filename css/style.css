@@ -41,7 +41,9 @@
   letter-spacing: 1.5px;
   color: white;
 }
-
+.texto h1{
+  font-size: 5rem;
+}
 .logo {
   width: 110px;
   height: 110px;
@@ -69,8 +71,16 @@
 
 }
 
+.barra-nav{
+  text-decoration: none;
+}
 .botones-menu a {
   text-decoration: none;
+
+}
+
+.barra-nav:visited{
+  color:#3F3AA5;
 }
 
 .boton-contacto {
@@ -163,7 +173,7 @@
 }
 
 .action {
-  margin-top: 2rem;
+  margin-top: 50px;
   width: 100%;
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 9999px;
@@ -196,7 +206,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.font-text{
+  font-size: 1.5rem;
+}
 /*boton wssp*/
 .whatsapp {
   position: fixed;
