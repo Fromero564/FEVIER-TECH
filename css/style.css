@@ -8,6 +8,10 @@
   justify-content: space-around;
 }
 
+.respmenu{
+  display:none;
+}
+
 .img-portada {
   width: 100vw;
   height: auto;
@@ -105,6 +109,11 @@
   align-items: center;
   justify-content: space-around;
   margin-top: -20vh;
+}
+
+.img-qs{
+  width: 50vw;
+  height:50vh;
 }
 
 .divTexto {
@@ -227,4 +236,160 @@
 .whatsapp i {
   margin-top: 13px;
   scale: 1.2;
+}
+
+.seccion-servicios{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media(max-width:900px){
+
+/*Menu no responsive*/
+.menu{
+  display: none;
+}
+/*Menu responsive*/
+.respmenu nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; 
+  
+}
+.respmenu li{
+ font-weight: bold;
+}
+
+.respmenu a, .has-submenu {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 2px solid #456789;
+  
+  max-width: 100%;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+}
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+  margin-top: 20px;
+  font-size: 60px;
+  pointer-events: none;
+  
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+ 
+}
+
+.respmenu {
+  display: block;
+  color: #0000;
+  position: relative;
+  background: #ffff;
+  
+  min-height: 48px;
+  
+}
+
+.respmenu nav {
+  display: none;
+ 
+}
+
+.respmenu input:checked~nav {
+  display: block;
+ 
+}
+
+.respmenu input:checked~.fa-bars {
+  display: none;
+ 
+
+}
+
+.respmenu input:not(:checked)~.fa-times {
+  display: none;
+}
+
+.icono-menu{
+  color:#3F3AA5;
+}
+.font-respmenu{
+  font-size: 20px;
+}
+
+/*logo responsive*/
+.logoresponsive{
+  width: 80px;
+  height: 80px;
+  margin:15px;
+  border-radius: 50%;
+}
+
+/*Portada*/
+.texto h1{
+  font-size: 2rem;
+}
+
+/*Segundo contenedor*/
+.containerDos{
+  display: block;
+  height: auto;
+  margin-top: -10px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  background-color: #fff !important;
+}
+
+.img-qs{
+  width: 100vw;
+}
+
+.divTexto{
+  width: 100vw;
+  background-color: #fff;
+}
+
+.divTexto p{
+  width: 95vw;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff ;
+
+}
+
+.titulo{
+  margin-bottom: 20px;
+}
+
+.seccion-servicios{
+  display: block;
+}
+
+.card{
+  margin-bottom: 25px;
+  margin-left:20px;
+  width: 90vw;
+}
+
+.footer-responsive{
+  display:block;
+}
 }
