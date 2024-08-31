@@ -458,11 +458,11 @@
       </div>
       <div class="col-md-6 mx-auto">
         <div>
-          <form class="needs-validation" novalidate>
+          <form class="needs-validation" action="registro.php" method="post" novalidate>
             <div class="row g-3">
               <div class="col-sm-6">
                 <label for="firstName" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Pablo" value="" required>
+                <input type="text" class="form-control" id="firstName" placeholder="Pablo" value="" name="nombre" required>
                 <div class="invalid-feedback">
                   Por favor ingresa un Nombre válido o nombre de la empresa
                 </div>
@@ -470,7 +470,7 @@
 
               <div class="col-sm-6">
                 <label for="lastName" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Perez" value="" required>
+                <input type="text" class="form-control" id="lastName" placeholder="Perez" value="" name="apellido" required>
                 <div class="invalid-feedback">
                   Por favor ingresa un apellido válido o nombre de la empresa
                 </div>
@@ -478,7 +478,7 @@
 
               <div class="col-12">
                 <label for="email" class="form-label">Email (Opcional)</label>
-                <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email">
                 <div class="invalid-feedback">
                   Por favor ingresa un email válido
                 </div>
@@ -486,7 +486,7 @@
 
               <div class="col-12">
                 <label for="number" class="form-label">Celular</label>
-                <input type="number" class="form-control" id="phone" placeholder="Ejemplo: +54 1111 222222" required>
+                <input type="number" class="form-control" id="phone" placeholder="Ejemplo: +54 1111 222222" name="telefono" required>
                 <div class="invalid-feedback">
                   Por favor ingresa un email válido
                 </div>
@@ -499,7 +499,7 @@
             <div class="row text-center">
               <div class="col-12">
                 <label for="text" class="form-label">Comentarios adicionales (Opcional)</label>
-                <input type="text" class="form-control" id="email" placeholder="">
+                <input type="text" class="form-control" id="email" placeholder="" name="comentario">
               </div>
             </div>
 
