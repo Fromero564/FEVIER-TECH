@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "Jost";
+    src: url("./font/Jost-VariableFont_wght.ttf"),
+         url("./font/Jost-Italic-VariableFont_wght.ttf");
+}
+
 *{
     margin:0;
     padding:0;
     position: relative;
     box-sizing: border-box; 
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Passion One', sans-serif;
+    font-family: "Jost",sans-serif;
+    font-weight: bold;
 }
