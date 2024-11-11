@@ -1,263 +1,538 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--FONT-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Passion+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Passion+One&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-    <!--CSS PROPIO-->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Fevier-Tech</title>
-  </head>
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--CSS PROPIO-->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Fevier-Tech</title>
+</head>
 
-  <body>
-    <a href="https://wa.me/?text=Hola!%20Gracias%20por%20contactarnos,%20¿En%20qué%20podemos%20ayudarte?!" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i>
-    </a>
-    <header>
-      <nav class="menu">
-        <img
-          src="fotos/solo-logo-color-corporativo.svg"
-          alt="logo"
-          class="logo"
-        />
-        <div class="botones-menu">
-          <ul>
-            <li><a href="#bienvenidos">Descúbrenos</a></li>
-            <li><a href="#Qs">Quienes somos</a></li>
-            <li><a href="#Servicios">Servicios</a></li>
-            <li><a href="">Clientes</a></li>
-          </ul>
-          <div class="boton-contacto">
-            <a href="">Contáctanos</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <section>
-      <div class="contenedor">
-    
-        <div class="div-difuminado"></div>
-
-        <img src="./fotos/FT1.jpg" alt="FEVIERTECH" class="img-portada">
-      
-        <div class="texto" id="bienvenidos">
-            <h1>BIENVENIDOS A FEVIERTECH</h1>
-            <h3>Soluciones de alto impacto</h3>
-        </div>
-    </div>
-    </section>
-    <section class="container" style="background-color: #F3F5F5">
-      <div class="descubrenos-img">
-        <img src="./fotos/FT3.jpg" alt="Quienessomos" style="width: 50vw;height:50vh;">
-      </div>
-      <div class="divTexto">
-        <h2 class="titulo" id="Qs">¿Quiénes Somos?</h2>
-        <p>Tu aliado estratégico en el mundo digital. Nos especializamos en ofrecer servicios integrales de digitalización para empresas, con un enfoque que abarca desde el desarrollo de software a medida hasta la gestión de páginas web y la administración de redes sociales como Community Managers.
-
-          En un entorno empresarial cada vez más competitivo, reconocemos la importancia de la digitalización para el crecimiento y la eficiencia. Es por eso que nos dedicamos a acompañar a las empresas en su proceso de transformación digital, brindando soluciones personalizadas que se adaptan a sus necesidades específicas.</p>
-          
-        
-      </div>
-    </section>
-    <section>
-      <h1 class="titulo" id="Servicios">Servicios</h1>
-      <div style="display: flex;align-items: center;justify-content: space-around;">
-        <!-- <div class="card">
-          <p class="price">
-            LANDING PAGE
-          </p>
-          <ul class="lists">
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-                <span> Hasta 7 bloques de contenido </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Inclusión de imagenes y videos </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Formulario de contacto </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Mapa de Google Maps </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Responsive: sitio para celular o tablet </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Redes sociales integradas </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Boton de Whatsapp </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Testimonios </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Carrousel de imagenes </span>
-            </li>
-        
-          </ul>
-        <a href="#" class="action">
-            Mas informanción
-          </a>
-        </div>
-        <div class="card">
-          <p class="price">
-            TIENDA ONLINE
-          </p>
-          <ul class="lists">
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-                <span> Hasta 5 secciones </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Catalogo de productos </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Autoadministrable </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Inclusión de medios de pagos </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Carrito de compras </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Configuración del servidor</span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Correo corporativo</span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Responsive: sitio para celular o tablet</span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Mapa de Google maps </span>
-            </li>
-          </ul>
-        <a href="#" class="action">
-            Mas informanción
-          </a>
-        </div>
-        <div class="card">
-          <p class="price">
-            DESARROLLO DE SOFTWARE
-          </p>
-          <ul class="lists">
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-                <span> Enfocado en las necesidades del cliente </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Se entrega instalador </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Manual de instrucciones </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Posibilidad de utilizar el software en cualquier sistema operativo </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Contamos con desarrollo en Android o IOS en caso de necesitarlos </span>
-            </li>
-            <li class="list">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z" clip-rule="evenodd" fill-rule="evenodd"></path> </g></svg>
-              <span> Software ya elaborados: Control de stock, Sistema de turnos, Programa de pedidos. </span>
-            </li>
-          </ul>
-        <a href="#" class="action">
-            Mas informanción
-          </a>
-        </div> -->
-       
-<section class="card">
+<body>
+  <a href="https://wa.me/5493364113125?text=Hola!%20Gracias%20por%20contactarnos,%20¿En%20qué%20podemos%20ayudarte?!"
+    class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i>
+  </a>
   <header>
-    <h2 class="title">Beginner</h2>
-    <h1 class="price">Free</h1>
-  </header>
-  <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
-  <ul class="lists">
-    <li class="list">
-      <svg
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          clip-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-          fill-rule="evenodd"
-        ></path>
-      </svg>
-      <p>Aenean quis</p>
-    </li>
-    <li class="list">
-      <svg
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          clip-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-          fill-rule="evenodd"
-        ></path>
-      </svg>
-      <p>Morbi semper</p>
-    </li>
-    <li class="list">
-      <svg
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          clip-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-          fill-rule="evenodd"
-        ></path>
-      </svg>
-      <p>Tristique enim nec</p>
-    </li>
-  </ul>
-  <button class="action" type="button">Get Started</button>
-</section>
-
+    <nav class="menu">
+      <img src="fotos/solo-logo-color-corporativo.svg" alt="logo" class="logo" />
+      <div class="botones-menu">
+        <ul>
+          <li><a href="#bienvenidos" class="barra-nav">Descúbrenos</a></li>
+          <li><a href="#Qs" class="barra-nav">Quienes somos</a></li>
+          <li><a href="#Servicios" class="barra-nav">Servicios</a></li>
+        </ul>
+        <div class="boton-contacto">
+          <a href="#contacto">Contáctanos</a>
+        </div>
       </div>
-    </section>
+    </nav>
 
-  </body>
+    <div class="respmenu">
+      <img src="fotos/solo-logo-color-corporativo.svg" alt="logo" class="logoresponsive" />
+    
+        <input type="checkbox" />
+        <i class="fas fa-bars icono-menu"></i>
+        <i class="fas fa-times icono-menu"></i>
+        <nav>
+          <ul>
+            <li><a href="#bienvenidos" class="font-respmenu">Descúbrenos</a></li>
+            <li><a href="#Qs" class="font-respmenu">Quienes somos</a></li>
+            <li><a href="#Servicios"class="font-respmenu">Servicios</a></li>
+            <li><a href="#contacto"class="font-respmenu">Contáctanos</a></li>
+          </ul>
+        </nav>
+  </header>
+  <section>
+    <div class="contenedor">
+
+      <div class="div-difuminado"></div>
+
+      <img src="./fotos/FT1.jpg" alt="FEVIERTECH" class="img-portada">
+
+      <div class="texto" id="bienvenidos">
+        <h1>BIENVENIDOS A FEVIERTECH</h1>
+        <h3>Soluciones de alto impacto</h3>
+      </div>
+    </div>
+  </section>
+  <section class="containerDos" style="background-color: #F3F5F5">
+    <div class="descubrenos-img">
+      <img src="./fotos/FT3.jpg" alt="Quienessomos" class="img-qs">
+    </div>
+    <div class="divTexto">
+      <h2 class="titulo" id="Qs">¿Quiénes Somos?</h2>
+      <p>Tu aliado estratégico en el mundo digital. Nos especializamos en ofrecer servicios integrales de digitalización
+        para empresas, con un enfoque que abarca desde el desarrollo de software a medida hasta la gestión de páginas
+        web y la administración de redes sociales como Community Managers.
+
+        En un entorno empresarial cada vez más competitivo, reconocemos la importancia de la digitalización para el
+        crecimiento y la eficiencia. Es por eso que nos dedicamos a acompañar a las empresas en su proceso de
+        transformación digital, brindando soluciones personalizadas que se adaptan a sus necesidades específicas.</p>
+
+
+    </div>
+  </section>
+  <section>
+    <h1 class="titulo" id="Servicios">Servicios</h1>
+    <div class="seccion-servicios">
+      <div class="card">
+        <p class="price">
+          LANDING PAGE
+        </p>
+        <ul class="lists">
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Hasta 7 bloques de contenido </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Inclusión de imagenes y videos </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Formulario de contacto </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Mapa de Google Maps </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Responsive: sitio para celular o tablet </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Redes sociales integradas </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Boton de Whatsapp </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Testimonios </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Carrousel de imagenes </span>
+          </li>
+
+        </ul>
+        <a href="#contacto" class="action">
+          Mas informanción
+        </a>
+      </div>
+      <div class="card">
+        <p class="price">
+          TIENDA ONLINE
+        </p>
+        <ul class="lists">
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Hasta 5 secciones </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Catalogo de productos </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Autoadministrable </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Inclusión de medios de pagos </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Carrito de compras </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Configuración del servidor</span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Correo corporativo</span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Responsive: sitio para celular o tablet</span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Mapa de Google maps </span>
+          </li>
+        </ul>
+        <a href="#contacto" class="action">
+          Mas informanción
+        </a>
+      </div>
+      <div class="card">
+        <p class="price">
+          SOFTWARE
+        </p>
+        <ul class="lists">
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Enfocado en las necesidades del cliente </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Se entrega instalador </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Manual de instrucciones </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Software multiplataforma</span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Desarrollo para moviles(Android o IOS) </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Actualización y escalabilidad </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Conexion a Api´s o servidores </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Generación de reportes </span>
+          </li>
+          <li class="list">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+              <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill="#ffffff"
+                  d="M21.5821 5.54289C21.9726 5.93342 21.9726 6.56658 21.5821 6.95711L10.2526 18.2867C9.86452 18.6747 9.23627 18.6775 8.84475 18.293L2.29929 11.8644C1.90527 11.4774 1.89956 10.8443 2.28655 10.4503C2.67354 10.0562 3.30668 10.0505 3.70071 10.4375L9.53911 16.1717L20.1679 5.54289C20.5584 5.15237 21.1916 5.15237 21.5821 5.54289Z"
+                  clip-rule="evenodd" fill-rule="evenodd"></path>
+              </g>
+            </svg>
+            <span> Contamos con softwares ya elaborados </span>
+          </li>
+        </ul>
+        <a href="#contacto" class="action">
+          Mas informanción
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container contacto" id="contacto">
+    <div>
+      <div class="text-center font-text">
+        <h2>Contáctanos</h2>
+        <p>Whatsapp de FEVIERTECH: +54 3364 - 113125</p>
+        <p>Email de FEVIERTECH: info@feviertech.com</p>
+        <p>Nuestra oficina: Argentina, Buenos Aires</p>
+        <hr class="my-4">
+        <h2>O dejanos tu mensaje</h2>
+      </div>
+      <div class="col-md-6 mx-auto">
+        <div>
+          <form class="needs-validation" action="registro.php" method="post" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Pablo" value="" name="nombre" required>
+                <div class="invalid-feedback">
+                  Por favor ingresa un Nombre válido o nombre de la empresa
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Perez" value="" name="apellido" required>
+                <div class="invalid-feedback">
+                  Por favor ingresa un apellido válido o nombre de la empresa
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email (Opcional)</label>
+                <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email">
+                <div class="invalid-feedback">
+                  Por favor ingresa un email válido
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="number" class="form-label">Celular</label>
+                <input type="number" class="form-control" id="phone" placeholder="Ejemplo: +54 1111 222222" name="telefono" required>
+                <div class="invalid-feedback">
+                  Por favor ingresa un email válido
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row text-center">
+              <div class="col-12">
+                <label for="text" class="form-label">Comentarios adicionales (Opcional)</label>
+                <input type="text" class="form-control" id="email" placeholder="" name="comentario">
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <button class="action w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Fevier Tech</p>
+
+      <a href="#"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="fotos/solo-logo-color-corporativo.svg" alt="logo" class="logo" />
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end footer-responsive">
+        <li class="nav-item"><a href="#bienvenidos" class="nav-link px-2 text-body-secondary">Descúbrenos</a></li>
+        <li class="nav-item"><a href="#Qs" class="nav-link px-2 text-body-secondary">Quienes somos</a></li>
+        <li class="nav-item"><a href="#Servicios" class="nav-link px-2 text-body-secondary">Servicios</a></li>
+        <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-body-secondary">Contáctanos</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
