@@ -14,6 +14,11 @@ $email = $con->real_escape_string($_POST['email']);
 $telefono = $con->real_escape_string($_POST['telefono']);
 $comentario = $con->real_escape_string($_POST['comentario']);
 
+if (empty($nombre) || empty($apellido) || empty($email) || empty($telefono)) {
+    // Redirige o muestra un mensaje de error si alguno de los campos requeridos está vacío
+    echo "Por favor, complete todos los campos obligatorios.";
+    exit(); // Detiene el script para evitar que se ejecute el resto del código
+}
 // Consulta para insertar datos
 $query = "INSERT INTO consultas (nombre, apellido, email, telefono, comentario) VALUES ('$nombre', '$apellido', '$email', '$telefono', '$comentario')";
 

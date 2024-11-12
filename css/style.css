@@ -25,7 +25,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   -webkit-clip-path: circle(130vw at 50% -100vw);
   clip-path: circle(160vw at 50% -115vw);
@@ -44,6 +44,10 @@
   width: 100%;
   letter-spacing: 1.5px;
   color: white;
+}
+
+.texto h3{
+  font-size:2rem;
 }
 .texto h1{
   font-size: 5rem;
@@ -77,6 +81,7 @@
 
 .barra-nav{
   text-decoration: none;
+  color:#3F3AA5;
 }
 .botones-menu a {
   text-decoration: none;
@@ -136,6 +141,9 @@
   text-align: justify;
 }
 
+.texto-precio{
+  text-align: center;
+}
 /*Card de servicios*/
 
 
@@ -420,4 +428,94 @@ header {
 .footer-responsive{
   display:block;
 }
+}
+
+@media (max-width: 600px) {
+
+  /* Menú no responsive */
+  .menu {
+    display: none;
+  }
+
+  /* Menú responsive */
+  .respmenu nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+  }
+
+  .respmenu li {
+    font-weight: bold;
+  }
+
+  .respmenu a, .has-submenu {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #456789;
+    max-width: 100%;
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
+  }
+
+  /* Imagen de Portada y Texto */
+  .img-portada {
+    width: 100%;
+    height: auto;
+  }
+
+  .texto h1 {
+    font-size: 1.5rem;
+  }
+
+  .texto h3{
+    font-size:10px
+  }
+
+  /* Segundo contenedor */
+  .containerDos {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+
+  .img-qs {
+    width: 100%;
+    height: auto;
+  }
+
+  .divTexto {
+    width: 100%;
+  }
+
+  .divTexto p {
+    width: 95%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Servicios */
+  .seccion-servicios {
+    display: block;
+    width: 100%;
+  }
+
+  .card {
+    margin: 0 auto 20px;
+    width: 90%;
+  }
+
+  /* Ajustes en pie de página */
+  .footer-responsive {
+    display: block;
+    width: 100%;
+  }
+
+  .price{
+    font-size: 2rem;
+  }
 }
